@@ -7,7 +7,7 @@
 - [Student Name 4] - [Student ID] - [GitHub Username] - **AI Image+Text Prompt CSS** (if applicable)
 
 **Elected Submitter:** [Abraham Cardenas - Acardenas96]
-**Repository Link:** https://github.com/[submitter-username]/CSC317/tree/main/assignments/3
+**Repository Link:** https://github.com/Acardenas96/CSC317/tree/main/assignments/3
 
 ## Work Distribution
 - Hand-written CSS (Collaborative): [Member 1 Name] and [Member 2 Name]

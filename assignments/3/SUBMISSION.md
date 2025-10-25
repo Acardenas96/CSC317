@@ -7,7 +7,7 @@
 - [Gokul Nair] - [Student ID] - [gokulkrishnaradhakrishnannair] (if applicable)
 
 **Elected Submitter:** [Abraham Cardenas - Acardenas96]
-**Repository Link:** https://github.com/[submitter-username]/CSC317/tree/main/assignments/3
+**Repository Link:** https://github.com/Acardenas96/CSC317/tree/main/assignments/3
 
 # Portfolio Styling Assignment Analysis
 
