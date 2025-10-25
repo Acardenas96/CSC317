@@ -32,7 +32,7 @@ header::before{
     background-size: cover;
     
 }
-h1{
+footer{
     
     font-weight: 700;
     letter-spacing: .01em;
@@ -42,44 +42,3 @@ h1{
 
 }
 
-h2{
-    
-    font-weight: 700;
-    letter-spacing: .01em;
-    padding: 2.5rem 0 0 4.5rem;
-    text-shadow: .022em .022em .022em #111;
-    color:#fff;
-
-}
-h3{
-    
-    font-weight: 700;
-    letter-spacing: .01em;
-    padding: 2.5rem 0 0 4.5rem;
-    text-shadow: .022em .022em .022em #111;
-    color:#fff;
-
-}
-li{
-    
-    font-weight: 700;
-    letter-spacing: .01em;
-    padding: 1.25rem 0 0 4.5rem;
-    text-shadow: .022em .022em .022em #111;
-    color:#fff;
-}
-ul{
-   
-    font-weight: 700;
-    letter-spacing: .01em;
-    padding: 2.5rem 0 0 4.5rem;
-    text-shadow: .022em .022em .022em #111;
-    color:#fff;
-}
-p{
-    
-    font-weight: 400;
-    line-height: 2;
-    margin-bottom: 1.5em;
-    color:#fcfcfc;
-}
