@@ -103,3 +103,13 @@ nav ul {
     padding: 0;
     gap: 15px;
 }
+
+nav ul li a {
+    color: white; /* Also a temp color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
