@@ -1,21 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-
+/* Abraham */
 :root{
-    
-
     --heading-height: 30em;
 }
-
+/* Abraham */
 body{
     font-family:"Roboto", Arial, sans-serif;
     min-height: 100vh;
-    background-color: #101010;
+    background-color: #ffffff;
 }
+/* Abraham */
 header{
     position:relative;
     width: 100%;
     height:var(--heading-height);
 }
+/* Abraham */
 header::before{
     content: "";
     display:block;
@@ -32,6 +32,7 @@ header::before{
     background-size: cover;
     
 }
+/* Abraham */
 footer{
     
     font-weight: 700;
