@@ -91,6 +91,15 @@ footer{
 
 /* Jerome - Nav Bar */
 nav {
-  background-color: #CE6A85; /* Temp Color */
-  padding: 5px;
+    background-color: #CE6A85; /* Temp Color */
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
 }
