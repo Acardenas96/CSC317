@@ -88,3 +88,9 @@ footer{
     color: white;
     border-color: #0069d9;
 }
+
+/* Jerome - Nav Bar */
+nav {
+  background-color: #CE6A85; /* Temp Color */
+  padding: 5px;
+}
