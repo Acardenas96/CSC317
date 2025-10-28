@@ -6,7 +6,7 @@ Font Style: New Century Schoolbook
 
 Design Elements 
 - Each section gets its own separate flexbox (Nav, Header, About, Skills, Projects, Contact) 
-- Center the headers but do not center the <p> tags or any lists (<ul>)
+- Center the headers but do not center the p tags or any lists (ul tags)
 
 Color Scheme (in HEX codes): 
 - 157A6E (Pine Green - mainly used for Text) 
