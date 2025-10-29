@@ -17,7 +17,11 @@ For my part, I focused on building out the cyberpunk CSS for our portfolio. I wa
 
 ## Individual Reflections
 
+<<<<<<< HEAD
 ### [Abraham Cardenas] - Hand-written CSS (Part 1)
+=======
+### [Abraham Cardenas] - Hand-written CSS (Part 1) 
+>>>>>>> a355cf4 (Revised Hand-Written CSS (Part 1) title)
 [Individual reflection on lessons learned and contribution to hand-written CSS]
 
 ### [Mario Jimenez] - Hand-written CSS (Part 2)
