@@ -17,16 +17,16 @@ For my part, I focused on building out the cyberpunk CSS for our portfolio. I wa
 
 ## Individual Reflections
 
-### [Abraham Cardenas] - Hand-written CSS (Part 1- Header and Footer) 
+### [Abraham Cardenas] - Hand-written CSS (Part 1)
 [Individual reflection on lessons learned and contribution to hand-written CSS]
 
-### [Member 2 Name] - Hand-written CSS (Part 2)
+### [Mario Jimenez] - Hand-written CSS (Part 2)
 [Individual reflection on lessons learned and contribution to hand-written CSS]
 
-### [Member 3 Name] - AI Text Prompt CSS
+### [Jerome Fernando] - AI Text Prompt CSS
 [Individual reflection on AI prompting experience and lessons learned]
 
-### [Member 4 Name] - AI Image+Text Prompt CSS (if applicable)
+### [Gokul ] - AI Image+Text Prompt CSS (if applicable)
 [Individual reflection on AI prompting with images and lessons learned]
 
 ## Group Preferred Version
