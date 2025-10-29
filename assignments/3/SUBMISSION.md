@@ -2,9 +2,9 @@
 
 **Group Members:**
 - [Abraham Cardenas] - [916872183] - [Acardenas96]
-- [Jerome Fernando] - [Student ID] - [GitHub Username]
-- [Mario Illesca] - [Student ID] - [GitHub Username]
-- [Gokul Nair] - [Student ID] - [gokulkrishnaradhakrishnannair] (if applicable)
+- [Jerome Fernando] - [918473002] - [jm-fernando]
+- [Mario Illesca] - [924810481] - [nochinxx]
+- [Gokul Nair] - [924469621] - [gokulkrishnaradhakrishnannair]
 
 **Elected Submitter:** [Abraham Cardenas - Acardenas96]
 **Repository Link:** https://github.com/Acardenas96/CSC317/tree/main/assignments/3
@@ -12,11 +12,12 @@
 # Portfolio Styling Assignment Analysis
 
 ## Group Analysis (250-500 words)
-[Write a collaborative analysis comparing the different approaches. Each member should contribute to this section.]
+For my part, I focused on building out the cyberpunk CSS for our portfolio. I wanted it to feel bold and techy but still readable—kind of like Vice City meets glitchy student showcase. I used neon colors, glitchy borders, and brush-style headers to give it personality, while keeping the layout clean and modular. I also handled the Git stuff for our branch (ai-1-css), making sure everything was organized and pushed properly. One thing I learned was how much small design choices affect the vibe—like hover effects and font pairings. I also wrote the AI prompt that generated the CSS, so it’s documented and repeatable. Overall, I tried to mix creativity with structure and make something that actually feels like me while still hitting the assignment goals.
+
 
 ## Individual Reflections
 
-### [Member 1 Name] - Hand-written CSS (Part 1)
+### [Abraham Cardenas] - Hand-written CSS (Part 1- Header and Footer) 
 [Individual reflection on lessons learned and contribution to hand-written CSS]
 
 ### [Member 2 Name] - Hand-written CSS (Part 2)
