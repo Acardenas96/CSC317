@@ -2,7 +2,6 @@
 header{
     position:relative;
     width: 100%;
-    height:var(--heading-height);
 }
 /* Abraham */
 header::before{
@@ -28,6 +27,6 @@ footer{
     letter-spacing: .01em;
     padding: 2.5rem 0 0 4.5rem;
     text-shadow: .022em .022em .022em #111;
-    color:#fff;
+    color:#000;
 
 }
