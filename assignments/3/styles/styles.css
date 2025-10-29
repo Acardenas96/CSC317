@@ -93,6 +93,9 @@ footer{
 nav {
     background-color: #CE6A85; /* Temp Color */
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 }
 
