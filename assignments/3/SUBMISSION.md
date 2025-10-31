@@ -3,7 +3,7 @@
 **Group Members:**
 - [Abraham Cardenas] - [916872183] - [Acardenas96]
 - [Jerome Fernando] - [918473002] - [jm-fernando]
-- [Mario Illesca] - [924810481] - [nochinxx]
+- [Mario Jimenez] - [924810481] - [nochinxx]
 - [Gokul Nair] - [924469621] - [gokulkrishnaradhakrishnannair]
 
 **Elected Submitter:** [Abraham Cardenas - Acardenas96]
@@ -18,7 +18,7 @@ For my part, I focused on building out the cyberpunk CSS for our portfolio. I wa
 ## Individual Reflections
 
 ### [Abraham Cardenas] - Hand-written CSS (Part 1)
-[Individual reflection on lessons learned and contribution to hand-written CSS]
+While working on the hand-written CSS portion of our project, I discovered that the line height: var(--heading-height); inside the header {} block was creating excessive white space between my profile image and the text below it. Removing that line immediately resolved the spacing issue and made the layout feel more balanced. This taught me how even a single CSS variable can dramatically affect visual flow, especially when working with custom properties. It also reminded me to inspect inherited styles and test layout changes iteratively. Aside from that fix, I primarily focused on refining the header structure and ensuring the visual hierarchy felt intuitive.
 
 ### [Mario Jimenez] - Hand-written CSS (Part 2)
 [Individual reflection on lessons learned and contribution to hand-written CSS]
