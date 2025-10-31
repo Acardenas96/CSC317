@@ -24,7 +24,7 @@ For my part, I focused on building out the cyberpunk CSS for our portfolio. I wa
 [Individual reflection on lessons learned and contribution to hand-written CSS]
 
 ### [Jerome Fernando] - AI Text Prompt CSS
-[Individual reflection on AI prompting experience and lessons learned]
+When creating one of the AI generated CSS stylesheets, my main goal was to experiment with design and gain an understanding of how styling choices can really have an impact on the personality of a webpage. Design choice direction was also one of my biggest struggles for this assignment. Ultimately I settled for prompting AI to create a cleaner looking stylesheet - with the sections separated into their own flexboxes for added design flexibility, a simple font for easy readability, and a softer color scheme that is visually pleasing. One of the other biggest lessons I learned was how to navigate the direction I wanted the AI to go through prompting. Being ultra specific on key details really helped me ensure that the AI is doing exactly what I want it to do and that it did not stray too far and generate the code in a way that I can still understand and maybe pick up some things to use in the future. 
 
 ### [Gokul ] - AI Image+Text Prompt CSS (if applicable)
 [Individual reflection on AI prompting with images and lessons learned]
