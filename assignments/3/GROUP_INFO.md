@@ -6,7 +6,7 @@
 - [Abraham Cardenas] - [915872183] - [Acardenas96] - **AI Text Prompt CSS 1**
 - [Mario Jimenez] - [924810481] - [nochinxx] - **AI Text Prompt CSS 2**
 - [Jerome Fernando] - [918473002] - [jm-fernando] - **AI Text Prompt CSS 3**
-- [Gokul Nair] - [924469621] - [gokulkrishnaradhakrishnannair] - **AI Text Prompt CSS 4**
+- [Gokul Krishna Radhakrishnan Nair] - [924469621] - [gokulkrishnaradhakrishnannair] - **AI Text Prompt CSS 4**
 
 **Elected Submitter:** [Abraham Cardenas - Acardenas96]
 **Repository Link:** https://github.com/Acardenas96/CSC317/tree/main/assignments/3
@@ -15,7 +15,7 @@
 - Hand-written CSS (Collaborative): [Abraham Cardenas] and [Mario Jimenez]
   - [Abraham Cardenas]: [Header and Footer]
   - [Mario Jimenez]: [Section, about me and switcher]
-- AI Text Prompt CSS: [Member 3 Name]
+- AI Text Prompt CSS: Gokul Krishna Radhakrishnan Nair
 - AI Image+Text Prompt CSS: [Member 4 Name] (or Member 3 if 3-person group)
 - Hybrid Solution: [All Members - collaborative effort]
 - Switcher Implementation: [Mario Jimenez]
