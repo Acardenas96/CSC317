@@ -47,9 +47,7 @@ Overall, my CSS aimed to keep a clean, readable layout that followed the color v
 When creating one of the AI generated CSS stylesheets, my main goal was to experiment with design and gain an understanding of how styling choices can really have an impact on the personality of a webpage. Design choice direction was also one of my biggest struggles for this assignment. Ultimately I settled for prompting AI to create a cleaner looking stylesheet - with the sections separated into their own flexboxes for added design flexibility, a simple font for easy readability, and a softer color scheme that is visually pleasing. One of the other biggest lessons I learned was how to navigate the direction I wanted the AI to go through prompting. Being ultra specific on key details really helped me ensure that the AI is doing exactly what I want it to do and that it did not stray too far and generate the code in a way that I can still understand and maybe pick up some things to use in the future. 
 
 ### [Gokul Krishna Radhakrishnan Nair] - AI Image+Text Prompt CSS
-On creating the AI prompt for CSS, I 
-
-
+On creating the AI prompt for CSS, I envisioned the webpage to look professional and easily readable. The stylesheet encompasses elements like .project card to amplify the transition from each section. Moreover, I preferred to highlight the parts for h1 and h2 and ended up getting alternating colors and typography. I realized from the AI generated code, that its size and boldness differs from h1 to h3 elements and have padding for subsection to encapsulate the list items.
 
 ## Group Preferred Version
 Our preferred version is the Hybrid theme, since it combines the best design ideas from both the AI-generated and handwritten styles, still keeping things simple and personal.
