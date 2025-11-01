@@ -4,7 +4,7 @@
 - [Abraham Cardenas] - [916872183] - [Acardenas96]
 - [Jerome Fernando] - [918473002] - [jm-fernando]
 - [Mario Jimenez] - [924810481] - [nochinxx]
-- [Gokul Nair] - [924469621] - [gokulkrishnaradhakrishnannair]
+- [Gokul Krishna Radhakrishnan Nair] - [924469621] - [gokulkrishnaradhakrishnannair]
 
 **Elected Submitter:** [Abraham Cardenas - Acardenas96]
 **Repository Link:** https://github.com/Acardenas96/CSC317/tree/main/assignments/3
@@ -46,8 +46,10 @@ Overall, my CSS aimed to keep a clean, readable layout that followed the color v
 ### [Jerome Fernando] - AI Text Prompt CSS
 When creating one of the AI generated CSS stylesheets, my main goal was to experiment with design and gain an understanding of how styling choices can really have an impact on the personality of a webpage. Design choice direction was also one of my biggest struggles for this assignment. Ultimately I settled for prompting AI to create a cleaner looking stylesheet - with the sections separated into their own flexboxes for added design flexibility, a simple font for easy readability, and a softer color scheme that is visually pleasing. One of the other biggest lessons I learned was how to navigate the direction I wanted the AI to go through prompting. Being ultra specific on key details really helped me ensure that the AI is doing exactly what I want it to do and that it did not stray too far and generate the code in a way that I can still understand and maybe pick up some things to use in the future. 
 
-### [Gokul ] - AI Image+Text Prompt CSS (if applicable)
-[Individual reflection on AI prompting with images and lessons learned]
+### [Gokul Krishna Radhakrishnan Nair] - AI Image+Text Prompt CSS
+On creating the AI prompt for CSS, I 
+
+
 
 ## Group Preferred Version
 Our preferred version is the Hybrid theme, since it combines the best design ideas from both the AI-generated and handwritten styles, still keeping things simple and personal.
