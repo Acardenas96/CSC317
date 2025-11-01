@@ -16,7 +16,7 @@
   - [Abraham Cardenas]: [Header and Footer]
   - [Mario Jimenez]: [Section, about me and switcher]
 - AI Text Prompt CSS: Gokul Krishna Radhakrishnan Nair
-- AI Image+Text Prompt CSS: [Member 4 Name] (or Member 3 if 3-person group)
+- AI Image+Text Prompt CSS: [Jerome Fernando] 
 - Hybrid Solution: [All Members - collaborative effort]
 - Switcher Implementation: [Mario Jimenez]
 - Documentation & Analysis: [Mario Jimenez]
