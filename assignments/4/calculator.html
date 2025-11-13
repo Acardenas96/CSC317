@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link id = "css-theme" rel="stylesheet" href="styles/calculator.css">
+</head>
+<body>
+    <script src = "scripts/hello.js"></script>
+    <div id = "calculator">
+        <input id = "display" readonly>
+        
+        <div id ="keys">
+            <button onclick = "clearDisplay()"class = "utilities-btn">AC</button>
+            <button onclick = "negativeValue()"class = "utilities-btn">+/-</button>
+            <button onclick = "percentage()"class = "utilities-btn">%</button>
+            <button onclick = "appendToDisplay('/')" class = "operator-btn">/</button>
+            <button onclick = "appendToDisplay('7')">7</button>
+            <button onclick = "appendToDisplay('8')">8</button>
+            <button onclick = "appendToDisplay('9')">9</button>
+            <button onclick = "appendToDisplay('*')"class = "operator-btn">*</button>
+            <button onclick = "appendToDisplay('4')">4</button>
+            <button onclick = "appendToDisplay('5')">5</button>
+            <button onclick = "appendToDisplay('6')">6</button>
+            <button onclick = "appendToDisplay('-')"class = "operator-btn">-</button>
+            <button onclick = "appendToDisplay('1')">1</button>
+            <button onclick = "appendToDisplay('2')">2</button>
+            <button onclick = "appendToDisplay('3')">3</button>
+            <button onclick = "appendToDisplay('+')"class = "operator-btn">+</button>
+            <button onclick = "appendToDisplay('0')">0</button>
+            <button onclick = "appendToDisplay('.')">.</button>
+            <button onclick = "calculate()"class = "operator-btn">=</button>
+            
+            
+
+        </div>
+    </div>
+    <script src = "scripts/calculator.js"></script>
+    <div class = "theme-switcher">
+        <div class = "theme-buttons">
+            <button class = "theme-button active" data-theme="calculator">ios</button>
+            <button class = "theme-button" data-theme="AI_1">Dark Blue</button>
+            <button class = "theme-button" data-theme="AI_2">Orange Grey</button>
+            <button class = "theme-button" data-theme="AI_3">Magenta Turquoise</button>
+        </div>
+    </div>
+</body>
+</html>
