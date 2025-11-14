@@ -1,120 +1,144 @@
+/* Body Styling */
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 125vh;
-    background: radial-gradient(circle at center, #0a0f1c 0%, #05070d 100%);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Orbitron', sans-serif;
-    color: #00f0ff;
-    
-}
-#calculator{
-    font-family: Arial, sans-serif;
-    background-color: hsl(0,0%,15%);
-    border-radius: 15px;
-    max-width: 500px;
-    overflow:hidden;
-    transition: box-shadow 0.3s ease;
-}
-#display{
-    width:100%;
-    padding:20px;
-    font-size: 5rem;
-    text-align:left;
-    border:none;
-    color:white;
-    background-color: hsl(0, 0%, 10%);
-}
-#keys{
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:10px;
-    padding: 25px;
-}
-button{
-    width: 100px;
-    height:100px;
-    border-radius: 50px;
-    border: none;
-    background-color: hsl(0,0%,30%);
-    color:white;
-    font-size: 3rem;
-    font-weight: bold;
-    cursor:pointer;
-}
-button:hover{
-    background-color: hsl(0,0%,30%);
-}
-button:active{
-    background-color: hsl(0,0%,40%);
-}
-.operator-btn{
-    background-color: hsl(35,100%,55%);
-}
-.operator-btn:hover{
-    background-color: hsl(35,100%,65%);
-}
-.operator-btn:active{
-    background-color: hsl(35,100%,75%);
-}
-.utilities-btn{
-    background-color: hsl(0,0%,40%);
-}
-.utilities-btn:hover{
-    background-color: hsl(0,0%,50%);
-}
-.utilities-btn:active{
-    background-color: hsl(0,0%,60%);
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 125vh; /* Taller than viewport for spacing */
+    background: radial-gradient(circle at center, #0a0f1c 0%, #05070d 100%); /* Dark radial gradient */
+    background-size: cover; /* Ensure background covers entire area */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent repetition */
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    color: #00f0ff; /* Neon blue text */
 }
 
+/* Calculator Container */
+#calculator {
+    font-family: Arial, sans-serif; /* Override font for calculator */
+    background-color: hsl(0, 0%, 15%); /* Dark gray background */
+    border-radius: 15px; /* Rounded corners */
+    max-width: 500px; /* Limit calculator width */
+    overflow: hidden; /* Hide overflow content */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+/* Display Styling */
+#display {
+    width: 100%; /* Full width display */
+    padding: 20px; /* Inner spacing */
+    font-size: 5rem; /* Large font for numbers */
+    text-align: left; /* Align text to the left */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    background-color: hsl(0, 0%, 10%); /* Very dark background */
+}
+
+/* Keys Grid Layout */
+#keys {
+    display: grid; /* Use grid for button layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 10px; /* Space between buttons */
+    padding: 25px; /* Inner spacing */
+}
+
+/* General Button Styling */
+button {
+    width: 100px; /* Button width */
+    height: 100px; /* Button height */
+    border-radius: 50px; /* Fully rounded buttons */
+    border: none; /* Remove border */
+    background-color: hsl(0, 0%, 30%); /* Medium gray background */
+    color: white; /* White text */
+    font-size: 3rem; /* Large text size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: hsl(0, 0%, 30%); /* Slightly lighter gray */
+}
+
+/* Button Active Effect */
+button:active {
+    background-color: hsl(0, 0%, 40%); /* Even lighter gray */
+}
+
+/* Operator Buttons */
+.operator-btn {
+    background-color: hsl(35, 100%, 55%); /* Orange background */
+}
+
+.operator-btn:hover {
+    background-color: hsl(35, 100%, 65%); /* Lighter orange on hover */
+}
+
+.operator-btn:active {
+    background-color: hsl(35, 100%, 75%); /* Lightest orange on active */
+}
+
+/* Utility Buttons */
+.utilities-btn {
+    background-color: hsl(0, 0%, 40%); /* Dark gray background */
+}
+
+.utilities-btn:hover {
+    background-color: hsl(0, 0%, 50%); /* Lighter gray on hover */
+}
+
+.utilities-btn:active {
+    background-color: hsl(0, 0%, 60%); /* Lightest gray on active */
+}
+
+/* Theme Switcher Container */
 .theme-switcher {
-    text-align: center;
-    margin-top: 2rem;
+    text-align: center; /* Center align theme switcher */
+    margin-top: 2rem; /* Space above theme switcher */
 }
 
+/* Theme Buttons Container */
 .theme-buttons {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center; /* Center buttons */
+    gap: 0.5rem; /* Space between buttons */
 }
 
+/* Individual Theme Button */
 .theme-button {
-    background-color:  hsl(35,100%,55%); /* Shamrock Green */
-    color: white;
-    border: none;
-    width: 40vh;
-    height:20vh;
-    border-radius: 6px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: hsl(35, 100%, 55%); /* Orange background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    width: 40vh; /* Large button width */
+    height: 20vh; /* Large button height */
+    border-radius: 6px; /* Slightly rounded corners */
+    padding: 0.5rem 1rem; /* Inner spacing */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth hover transition */
 }
 
 .theme-button:hover {
-  background-color:  hsl(35,100%,65%); /* Cambridge Blue */
+    background-color: hsl(35, 100%, 65%); /* Lighter orange on hover */
 }
 
 .theme-button.active {
-  background-color:  hsl(35,100%,75%); /* Pine Green */
+    background-color: hsl(35, 100%, 75%); /* Lightest orange for active theme */
 }
 
+/* Links Styling */
 a {
-    color:orange;
-    width:auto;
-    height:auto;
+    color: orange; /* Orange link color */
+    width: auto; /* Auto width */
+    height: auto; /* Auto height */
 }
 
+/* Responsive Design for Small Screens */
 @media (max-width: 600px) {
     body {
         height: auto; /* Avoid forcing 125vh on small screens */
-        padding: 20px;
+        padding: 20px; /* Add padding for spacing */
     }
 
     #calculator {
@@ -123,23 +147,23 @@ a {
 
     #display {
         font-size: 2.5rem; /* Reduce display font size */
-        padding: 10px;
+        padding: 10px; /* Reduce padding */
     }
 
     #keys {
-        gap: 10px;
-        padding: 15px;
+        gap: 10px; /* Reduce gap between buttons */
+        padding: 15px; /* Reduce padding */
     }
 
     #keys button {
-        width: 70px;
-        height: 70px;
-        font-size: 1.5rem; /* Smaller buttons */
+        width: 70px; /* Smaller button width */
+        height: 70px; /* Smaller button height */
+        font-size: 1.5rem; /* Smaller text size */
     }
 
     .theme-button {
-        width: 100px;
-        height: 50px;
-        font-size: 1rem;
+        width: 100px; /* Smaller theme button width */
+        height: 50px; /* Smaller theme button height */
+        font-size: 1rem; /* Smaller font size */
     }
 }

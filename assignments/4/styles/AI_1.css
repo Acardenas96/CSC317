@@ -1,153 +1,161 @@
+/* Body Styling */
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 125vh;
-    background: radial-gradient(circle at center, #0a0f1c 0%, #05070d 100%);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Orbitron', sans-serif;
-    color: #00f0ff;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 125vh; /* Make body taller than viewport for spacing */
+    background: radial-gradient(circle at center, #0a0f1c 0%, #05070d 100%); /* Dark radial gradient background */
+    background-size: cover; /* Ensure background covers entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    font-family: 'Orbitron', sans-serif; /* Futuristic font style */
+    color: #00f0ff; /* Neon blue text color */
 }
 
 /* Calculator Container */
 #calculator {
-    background-color: #0d1b2a;
-    border: 2px solid #00f0ff;
-    border-radius: 20px;
-    box-shadow: 0 0 30px #00f0ff88;
-    max-width: 500px;
-    overflow: hidden;
-    transition: box-shadow 0.3s ease;
+    background-color: #0d1b2a; /* Dark blue background for calculator */
+    border: 2px solid #00f0ff; /* Neon blue border */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 30px #00f0ff88; /* Glowing shadow effect */
+    max-width: 500px; /* Limit calculator width */
+    overflow: hidden; /* Hide overflow content */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
 }
 
-/* Display */
+/* Display Styling */
 #display {
-    width: 100%;
-    padding: 20px;
-    font-size: 4.5rem;
-    text-align: left;
-    border: none;
-    background-color: #1b263b;
-    color: #00f0ff;
-    box-shadow: inset 0 0 10px #00f0ff44;
+    width: 100%; /* Full width display */
+    padding: 20px; /* Inner spacing */
+    font-size: 4.5rem; /* Large font for numbers */
+    text-align: left; /* Align text to the left */
+    border: none; /* Remove border */
+    background-color: #1b263b; /* Dark background for display */
+    color: #00f0ff; /* Neon blue text */
+    box-shadow: inset 0 0 10px #00f0ff44; /* Inner glow effect */
 }
 
-/* Keys Grid */
+/* Keys Grid Layout */
 #keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    padding: 25px;
+    display: grid; /* Use grid for button layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 15px; /* Space between buttons */
+    padding: 25px; /* Inner spacing */
 }
 
-/* Buttons */
+/* General Button Styling */
 button {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    border: 2px solid #00f0ff33;
-    background-color: #1e2a3a;
-    color: #00f0ff;
-    font-size: 2.5rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: 0 0 10px #00f0ff22;
+    width: 100px; /* Button width */
+    height: 100px; /* Button height */
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #00f0ff33; /* Subtle neon border */
+    background-color: #1e2a3a; /* Dark button background */
+    color: #00f0ff; /* Neon blue text */
+    font-size: 2.5rem; /* Large text size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.2s ease; /* Smooth hover effects */
+    box-shadow: 0 0 10px #00f0ff22; /* Subtle glow */
 }
 
+/* Button Hover Effect */
 button:hover {
-    background-color: #263b4a;
-    box-shadow: 0 0 20px #00f0ffaa;
-    transform: scale(1.05);
+    background-color: #263b4a; /* Slightly lighter background */
+    box-shadow: 0 0 20px #00f0ffaa; /* Stronger glow */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
+/* Button Active Effect */
 button:active {
-    background-color: #00f0ff;
-    color: #0d1b2a;
-    box-shadow: 0 0 25px #00f0ffcc, inset 0 0 10px #0d1b2a;
-    transform: scale(0.98);
+    background-color: #00f0ff; /* Neon blue background */
+    color: #0d1b2a; /* Dark text for contrast */
+    box-shadow: 0 0 25px #00f0ffcc, inset 0 0 10px #0d1b2a; /* Glow + inner shadow */
+    transform: scale(0.98); /* Slight shrink effect */
 }
 
 /* Operator Buttons */
 .operator-btn {
-    background-color: #0077ff;
-    border-color: #00f0ff;
+    background-color: #0077ff; /* Bright blue background */
+    border-color: #00f0ff; /* Neon border */
 }
 
 .operator-btn:hover {
-    background-color: #0099ff;
-    box-shadow: 0 0 20px #00f0ffbb;
+    background-color: #0099ff; /* Lighter blue on hover */
+    box-shadow: 0 0 20px #00f0ffbb; /* Glow effect */
 }
 
 .operator-btn:active {
-    background-color: #00f0ff;
-    color: #0d1b2a;
-    box-shadow: 0 0 25px #00f0ffcc, inset 0 0 10px #0d1b2a;
+    background-color: #00f0ff; /* Neon blue active state */
+    color: #0d1b2a; /* Dark text */
+    box-shadow: 0 0 25px #00f0ffcc, inset 0 0 10px #0d1b2a; /* Glow + inner shadow */
 }
 
 /* Utility Buttons */
 .utilities-btn {
-    background-color: #14213d;
-    border-color: #00f0ff44;
+    background-color: #14213d; /* Darker background for utility buttons */
+    border-color: #00f0ff44; /* Subtle neon border */
 }
 
 .utilities-btn:hover {
-    background-color: #1f2a4d;
-    box-shadow: 0 0 20px #00f0ff88;
+    background-color: #1f2a4d; /* Slightly lighter hover color */
+    box-shadow: 0 0 20px #00f0ff88; /* Glow effect */
 }
 
 .utilities-btn:active {
-    background-color: #00f0ff;
-    color: #0d1b2a;
-    box-shadow: 0 0 25px #00f0ffcc, inset 0 0 10px #0d1b2a;
+    background-color: #00f0ff; /* Neon blue active state */
+    color: #0d1b2a; /* Dark text */
+    box-shadow: 0 0 25px #00f0ffcc, inset 0 0 10px #0d1b2a; /* Glow + inner shadow */
 }
 
+/* Theme Switcher Container */
 .theme-switcher {
-    text-align: center;
-    margin-top: 2rem;
+    text-align: center; /* Center align theme switcher */
+    margin-top: 2rem; /* Space above theme switcher */
 }
 
+/* Theme Buttons Container */
 .theme-buttons {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center; /* Center buttons */
+    gap: 0.5rem; /* Space between buttons */
 }
 
+/* Individual Theme Button */
 .theme-button {
-    background-color: #0077ff;
-    color: white;
-    border: none;
-    width: 40vh;
-    height:20vh;
-    border-radius: 6px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: #0077ff; /* Bright blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    width: 40vh; /* Large button width */
+    height: 20vh; /* Large button height */
+    border-radius: 6px; /* Slightly rounded corners */
+    padding: 0.5rem 1rem; /* Inner spacing */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth hover transition */
 }
 
 .theme-button:hover {
-    background-color: #1f2a4d;
+    background-color: #1f2a4d; /* Darker hover color */
 }
 
 .theme-button.active {
-    background-color: #00f0ff;
+    background-color: #00f0ff; /* Neon blue for active theme */
 }
 
+/* Links Styling */
 a {
-    color:blue;
-    width:auto;
-    height:auto;
+    color: blue; /* Blue link color */
+    width: auto; /* Auto width */
+    height: auto; /* Auto height */
 }
+
+/* Responsive Design for Small Screens */
 @media (max-width: 600px) {
     body {
         height: auto; /* Avoid forcing 125vh on small screens */
-        padding: 20px;
+        padding: 20px; /* Add padding for spacing */
     }
 
     #calculator {
@@ -156,23 +164,23 @@ a {
 
     #display {
         font-size: 2.5rem; /* Reduce display font size */
-        padding: 10px;
+        padding: 10px; /* Reduce padding */
     }
 
     #keys {
-        gap: 10px;
-        padding: 15px;
+        gap: 10px; /* Reduce gap between buttons */
+        padding: 15px; /* Reduce padding */
     }
 
     #keys button {
-        width: 70px;
-        height: 70px;
-        font-size: 1.5rem; /* Smaller buttons */
+        width: 70px; /* Smaller button width */
+        height: 70px; /* Smaller button height */
+        font-size: 1.5rem; /* Smaller text size */
     }
 
     .theme-button {
-        width: 100px;
-        height: 50px;
-        font-size: 1rem;
+        width: 100px; /* Smaller theme button width */
+        height: 50px; /* Smaller theme button height */
+        font-size: 1rem; /* Smaller font size */
     }
 }

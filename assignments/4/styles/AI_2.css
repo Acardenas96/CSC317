@@ -1,161 +1,168 @@
+/* Body Styling */
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 125vh;
-    flex-direction: column;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 125vh; /* Taller than viewport for spacing */
+    flex-direction: column; /* Arrange items vertically */
     /* Grungy Liberty City vibe */
-    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%);
-    font-family: 'Impact', sans-serif;
-    color: #ffffff;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%); /* Dark gradient background */
+    font-family: 'Impact', sans-serif; /* Bold, urban font */
+    color: #ffffff; /* White text color */
 }
 
 /* Calculator Container */
 #calculator {
-    background-color: #1f1f1f;
+    background-color: #1f1f1f; /* Dark gray background */
     border: 4px solid #ff6600; /* Rusty orange perimeter */
-    border-radius: 10px;
-    box-shadow: 0 0 40px rgba(255, 102, 0, 0.6), 0 0 60px rgba(0, 0, 0, 0.8);
-    max-width: 500px;
-    overflow: hidden;
-    transition: box-shadow 0.3s ease;
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 0 40px rgba(255, 102, 0, 0.6), 0 0 60px rgba(0, 0, 0, 0.8); /* Orange glow + dark shadow */
+    max-width: 500px; /* Limit calculator width */
+    overflow: hidden; /* Hide overflow content */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
 }
 
-/* Display */
+/* Display Styling */
 #display {
-    width: 100%;
-    padding: 20px;
-    font-size: 4rem;
+    width: 100%; /* Full width display */
+    padding: 20px; /* Inner spacing */
+    font-size: 4rem; /* Large font for numbers */
     text-align: left; /* GTA III vibe: left-aligned */
-    border: none;
-    background-color: #2e2e2e;
-    color: #ffffff;
-    box-shadow: inset 0 0 10px rgba(255, 102, 0, 0.4);
-    overflow-x: auto;
-    white-space: nowrap;
+    border: none; /* Remove border */
+    background-color: #2e2e2e; /* Dark background for display */
+    color: #ffffff; /* White text */
+    box-shadow: inset 0 0 10px rgba(255, 102, 0, 0.4); /* Inner orange glow */
+    overflow-x: auto; /* Allow horizontal scrolling for long numbers */
+    white-space: nowrap; /* Prevent text wrapping */
 }
 
-/* Scrollbar styling */
+/* Scrollbar Styling for Display */
 #display::-webkit-scrollbar {
-    height: 6px;
+    height: 6px; /* Thin scrollbar */
 }
 #display::-webkit-scrollbar-thumb {
-    background: #ff6600;
-    border-radius: 3px;
+    background: #ff6600; /* Orange scrollbar thumb */
+    border-radius: 3px; /* Rounded scrollbar thumb */
 }
 
-/* Keys Grid */
+/* Keys Grid Layout */
 #keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    padding: 25px;
+    display: grid; /* Use grid for button layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 15px; /* Space between buttons */
+    padding: 25px; /* Inner spacing */
 }
 
-/* Buttons */
+/* General Button Styling */
 button {
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
+    width: 100px; /* Button width */
+    height: 100px; /* Button height */
+    border-radius: 8px; /* Slightly rounded corners */
     border: 3px solid #ff6600; /* Orange border */
-    background-color: #333333;
-    color: #ffffff;
-    font-size: 2.5rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+    background-color: #333333; /* Dark button background */
+    color: #ffffff; /* White text */
+    font-size: 2.5rem; /* Large text size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover effects */
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.3); /* Subtle orange glow */
 }
 
+/* Button Hover Effect */
 button:hover {
-    background-color: #444444;
-    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6);
-    transform: scale(1.05);
+    background-color: #444444; /* Slightly lighter background */
+    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6); /* Stronger glow */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
+/* Button Active Effect */
 button:active {
-    background-color: #ff6600;
-    color: #1f1f1f;
-    box-shadow: 0 0 25px rgba(255, 102, 0, 0.8), inset 0 0 10px #1f1f1f;
-    transform: scale(0.95);
+    background-color: #ff6600; /* Orange background */
+    color: #1f1f1f; /* Dark text for contrast */
+    box-shadow: 0 0 25px rgba(255, 102, 0, 0.8), inset 0 0 10px #1f1f1f; /* Glow + inner shadow */
+    transform: scale(0.95); /* Slight shrink effect */
 }
 
 /* Operator Buttons */
 .operator-btn {
-    background-color: #555555;
-    border-color: #ff6600;
+    background-color: #555555; /* Dark gray background */
+    border-color: #ff6600; /* Orange border */
 }
 
 .operator-btn:hover {
-    background-color: #666666;
-    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6);
+    background-color: #666666; /* Lighter gray on hover */
+    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6); /* Glow effect */
 }
 
 .operator-btn:active {
-    background-color: #ff6600;
-    color: #1f1f1f;
+    background-color: #ff6600; /* Orange active state */
+    color: #1f1f1f; /* Dark text */
 }
 
 /* Utility Buttons */
 .utilities-btn {
-    background-color: #222222;
-    border-color: #ff6600;
+    background-color: #222222; /* Very dark background */
+    border-color: #ff6600; /* Orange border */
 }
 
 .utilities-btn:hover {
-    background-color: #333333;
-    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6);
+    background-color: #333333; /* Slightly lighter hover color */
+    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6); /* Glow effect */
 }
 
 .utilities-btn:active {
-    background-color: #ff6600;
-    color: #1f1f1f;
+    background-color: #ff6600; /* Orange active state */
+    color: #1f1f1f; /* Dark text */
 }
 
+/* Theme Switcher Container */
 .theme-switcher {
-    text-align: center;
-    margin-top: 2rem;
+    text-align: center; /* Center align theme switcher */
+    margin-top: 2rem; /* Space above theme switcher */
 }
 
+/* Theme Buttons Container */
 .theme-buttons {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center; /* Center buttons */
+    gap: 0.5rem; /* Space between buttons */
 }
 
+/* Individual Theme Button */
 .theme-button {
-    background-color: #1f1f1f;
-    color: white;
-    border: none;
-    width: 40vh;
-    height:20vh;
-    border-radius: 6px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: #1f1f1f; /* Dark background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    width: 40vh; /* Large button width */
+    height: 20vh; /* Large button height */
+    border-radius: 6px; /* Slightly rounded corners */
+    padding: 0.5rem 1rem; /* Inner spacing */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth hover transition */
 }
 
 .theme-button:hover {
-    background-color: #ff6600; 
+    background-color: #ff6600; /* Orange hover color */
 }
 
 .theme-button.active {
-    background-color: #ff8000; 
+    background-color: #ff8000; /* Bright orange for active theme */
 }
 
+/* Links Styling */
 a {
-    color:rgb(255, 102, 0);
-    width:auto;
-    height:auto;
+    color: rgb(255, 102, 0); /* Orange link color */
+    width: auto; /* Auto width */
+    height: auto; /* Auto height */
 }
 
+/* Responsive Design for Small Screens */
 @media (max-width: 600px) {
     body {
         height: auto; /* Avoid forcing 125vh on small screens */
-        padding: 20px;
+        padding: 20px; /* Add padding for spacing */
     }
 
     #calculator {
@@ -164,23 +171,23 @@ a {
 
     #display {
         font-size: 2.5rem; /* Reduce display font size */
-        padding: 10px;
+        padding: 10px; /* Reduce padding */
     }
 
     #keys {
-        gap: 10px;
-        padding: 15px;
+        gap: 10px; /* Reduce gap between buttons */
+        padding: 15px; /* Reduce padding */
     }
 
     #keys button {
-        width: 70px;
-        height: 70px;
-        font-size: 1.5rem; /* Smaller buttons */
+        width: 70px; /* Smaller button width */
+        height: 70px; /* Smaller button height */
+        font-size: 1.5rem; /* Smaller text size */
     }
 
     .theme-button {
-        width: 100px;
-        height: 50px;
-        font-size: 1rem;
+        width: 100px; /* Smaller theme button width */
+        height: 50px; /* Smaller theme button height */
+        font-size: 1rem; /* Smaller font size */
     }
 }

@@ -1,161 +1,170 @@
+/* Body Styling */
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 125vh;
-    flex-direction:column;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 125vh; /* Taller than viewport for spacing */
+    flex-direction: column; /* Arrange items vertically */
     /* Neon Miami gradient */
-    background: linear-gradient(135deg, #ff00aa 0%, #6600ff 100%);
-    font-family: 'Monoton', cursive;
-    color: #00f0ff;
+    background: linear-gradient(135deg, #ff00aa 0%, #6600ff 100%); /* Pink-to-purple gradient */
+    font-family: 'Monoton', cursive; /* Retro neon font */
+    color: #00f0ff; /* Bright turquoise text */
 }
 
 /* Calculator Container */
 #calculator {
-    background-color: rgba(20, 20, 40, 0.9);
+    background-color: rgba(20, 20, 40, 0.9); /* Semi-transparent dark background */
     border: 4px solid #ff00aa; /* Pink perimeter */
-    border-radius: 25px;
-    box-shadow: 0 0 40px #ff00aa, 0 0 60px #00f0ff;
-    max-width: 500px;
-    overflow: hidden;
-    transition: box-shadow 0.3s ease;
+    border-radius: 25px; /* Rounded corners for neon vibe */
+    box-shadow: 0 0 40px #ff00aa, 0 0 60px #00f0ff; /* Pink and turquoise glow */
+    max-width: 500px; /* Limit calculator width */
+    overflow: hidden; /* Hide overflow content */
+    transition: box-shadow 0.3s ease; /* Smooth glow transition */
 }
 
-/* Display */
+/* Display Styling */
 #display {
-    width: 100%;
-    padding: 20px;
-    font-size: 4rem;
-    text-align: left; /* ✅ Numbers start from the left */
-    border: none;
-    background-color: rgba(40, 0, 80, 0.8);
-    color: #00f0ff;
-    box-shadow: inset 0 0 15px #ff00aa;
+    width: 100%; /* Full width display */
+    padding: 20px; /* Inner spacing */
+    font-size: 4rem; /* Large font for numbers */
+    text-align: left; /* Numbers start from the left */
+    border: none; /* Remove border */
+    background-color: rgba(40, 0, 80, 0.8); /* Dark purple background */
+    color: #00f0ff; /* Turquoise text */
+    box-shadow: inset 0 0 15px #ff00aa; /* Inner pink glow */
 
     /* Overflow handling */
-    overflow-x: auto;
-    white-space: nowrap;
+    overflow-x: auto; /* Allow horizontal scrolling for long numbers */
+    white-space: nowrap; /* Prevent text wrapping */
 }
 
-/* Scrollbar styling */
+/* Scrollbar Styling for Display */
 #display::-webkit-scrollbar {
-    height: 6px;
+    height: 6px; /* Thin scrollbar */
 }
 #display::-webkit-scrollbar-thumb {
-    background: #ff00aa;
-    border-radius: 3px;
+    background: #ff00aa; /* Pink scrollbar thumb */
+    border-radius: 3px; /* Rounded scrollbar thumb */
 }
 
-/* Keys Grid */
+/* Keys Grid Layout */
 #keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    padding: 25px;
+    display: grid; /* Use grid for button layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 15px; /* Space between buttons */
+    padding: 25px; /* Inner spacing */
 }
 
-/* Buttons */
+/* General Button Styling */
 button {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
+    width: 100px; /* Button width */
+    height: 100px; /* Button height */
+    border-radius: 20px; /* Rounded corners */
     border: 3px solid #00f0ff; /* Turquoise border */
-    background-color: rgba(255, 0, 170, 0.2);
-    color: #00f0ff;
-    font-size: 2.5rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 15px #ff00aa;
+    background-color: rgba(255, 0, 170, 0.2); /* Semi-transparent pink background */
+    color: #00f0ff; /* Turquoise text */
+    font-size: 2.5rem; /* Large text size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover effects */
+    box-shadow: 0 0 15px #ff00aa; /* Pink glow */
 }
 
+/* Button Hover Effect */
 button:hover {
-    background-color: rgba(255, 0, 170, 0.4);
-    box-shadow: 0 0 25px #ff00aa, 0 0 35px #00f0ff;
-    transform: scale(1.08);
+    background-color: rgba(255, 0, 170, 0.4); /* Darker pink on hover */
+    box-shadow: 0 0 25px #ff00aa, 0 0 35px #00f0ff; /* Pink + turquoise glow */
+    transform: scale(1.08); /* Slight zoom effect */
 }
 
+/* Button Active Effect */
 button:active {
-    background-color: #00f0ff;
-    color: #ff00aa;
-    box-shadow: 0 0 30px #00f0ff, inset 0 0 15px #ff00aa;
-    transform: scale(0.95);
+    background-color: #00f0ff; /* Turquoise background */
+    color: #ff00aa; /* Pink text */
+    box-shadow: 0 0 30px #00f0ff, inset 0 0 15px #ff00aa; /* Glow + inner shadow */
+    transform: scale(0.95); /* Slight shrink effect */
 }
 
 /* Operator Buttons */
 .operator-btn {
-    background-color: rgba(0, 240, 255, 0.2);
-    border-color: #ff00aa;
+    background-color: rgba(0, 240, 255, 0.2); /* Semi-transparent turquoise */
+    border-color: #ff00aa; /* Pink border */
 }
 
 .operator-btn:hover {
-    background-color: rgba(0, 240, 255, 0.4);
-    box-shadow: 0 0 25px #00f0ff, 0 0 35px #ff00aa;
+    background-color: rgba(0, 240, 255, 0.4); /* Darker turquoise on hover */
+    box-shadow: 0 0 25px #00f0ff, 0 0 35px #ff00aa; /* Glow effect */
 }
 
 .operator-btn:active {
-    background-color: #ff00aa;
-    color: #00f0ff;
+    background-color: #ff00aa; /* Pink active state */
+    color: #00f0ff; /* Turquoise text */
 }
 
 /* Utility Buttons */
 .utilities-btn {
-    background-color: rgba(102, 0, 255, 0.3);
-    border-color: #00f0ff;
+    background-color: rgba(102, 0, 255, 0.3); /* Semi-transparent purple */
+    border-color: #00f0ff; /* Turquoise border */
 }
 
 .utilities-btn:hover {
-    background-color: rgba(102, 0, 255, 0.5);
-    box-shadow: 0 0 25px #ff00aa, 0 0 35px #00f0ff;
+    background-color: rgba(102, 0, 255, 0.5); /* Darker purple on hover */
+    box-shadow: 0 0 25px #ff00aa, 0 0 35px #00f0ff; /* Glow effect */
 }
 
 .utilities-btn:active {
-    background-color: #ff00aa;
-    color: #00f0ff;
+    background-color: #ff00aa; /* Pink active state */
+    color: #00f0ff; /* Turquoise text */
 }
 
+/* Theme Switcher Container */
 .theme-switcher {
-    text-align: center;
-    margin-top: 2rem;
+    text-align: center; /* Center align theme switcher */
+    margin-top: 2rem; /* Space above theme switcher */
 }
 
+/* Theme Buttons Container */
 .theme-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center; /* Center buttons */
+    gap: 0.5rem; /* Space between buttons */
 }
 
+/* Individual Theme Button */
 .theme-button {
-    background-color: #00f0ff; /* Shamrock Green */
-    color: white;
-    border: none;
-    width: 40vh;
-    height:20vh;
-    border-radius: 6px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: #00f0ff; /* Turquoise background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    width: 40vh; /* Large button width */
+    height: 20vh; /* Large button height */
+    border-radius: 6px; /* Slightly rounded corners */
+    padding: 0.5rem 1rem; /* Inner spacing */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth hover transition */
 }
 
 .theme-button:hover {
-  background-color: #900561; /* Cambridge Blue */
+    background-color: #900561; /* Dark pink hover color */
 }
 
 .theme-button.active {
-  background-color: #ff00aa; /* Pine Green */
-}
-a {
-    color:magenta;
-    width:auto;
-    height:auto;
+    background-color: #ff00aa; /* Pink for active theme */
 }
 
+/* Links Styling */
+a {
+    color: magenta; /* Magenta link color */
+    width: auto; /* Auto width */
+    height: auto; /* Auto height */
+}
+
+/* Responsive Design for Small Screens */
 @media (max-width: 600px) {
     body {
         height: auto; /* Avoid forcing 125vh on small screens */
-        padding: 20px;
+        padding: 20px; /* Add padding for spacing */
     }
 
     #calculator {
@@ -164,23 +173,23 @@ a {
 
     #display {
         font-size: 2.5rem; /* Reduce display font size */
-        padding: 10px;
+        padding: 10px; /* Reduce padding */
     }
 
     #keys {
-        gap: 10px;
-        padding: 15px;
+        gap: 10px; /* Reduce gap between buttons */
+        padding: 15px; /* Reduce padding */
     }
 
     #keys button {
-        width: 70px;
-        height: 70px;
-        font-size: 1.5rem; /* Smaller buttons */
+        width: 70px; /* Smaller button width */
+        height: 70px; /* Smaller button height */
+        font-size: 1.5rem; /* Smaller text size */
     }
 
     .theme-button {
-        width: 100px;
-        height: 50px;
-        font-size: 1rem;
+        width: 100px; /* Smaller theme button width */
+        height: 50px; /* Smaller theme button height */
+        font-size: 1rem; /* Smaller font size */
     }
 }
