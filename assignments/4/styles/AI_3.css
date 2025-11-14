@@ -146,6 +146,11 @@ button:active {
 .theme-button.active {
   background-color: #ff00aa; /* Pine Green */
 }
+a {
+    color:magenta;
+    width:auto;
+    height:auto;
+}
 
 @media (max-width: 600px) {
     body {

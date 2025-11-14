@@ -146,6 +146,12 @@ button:active {
     background-color: #ff8000; 
 }
 
+a {
+    color:rgb(255, 102, 0);
+    width:auto;
+    height:auto;
+}
+
 @media (max-width: 600px) {
     body {
         height: auto; /* Avoid forcing 125vh on small screens */

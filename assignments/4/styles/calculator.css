@@ -105,6 +105,12 @@ button:active{
   background-color:  hsl(35,100%,75%); /* Pine Green */
 }
 
+a {
+    color:orange;
+    width:auto;
+    height:auto;
+}
+
 @media (max-width: 600px) {
     body {
         height: auto; /* Avoid forcing 125vh on small screens */
